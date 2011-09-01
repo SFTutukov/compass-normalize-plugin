@@ -1,9 +1,4 @@
+require "compass"
 require "compass-normalize-plugin/version"
 
-module Compass
-  module Normalize
-    module Plugin
-      # Your code goes here...
-    end
-  end
-end
+Compass::Frameworks.register("normalize", :path => "#{File.dirname(__FILE__)}/..")
