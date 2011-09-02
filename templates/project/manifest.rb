@@ -1,5 +1,4 @@
-# stylesheet 'normalize.scss'
-discover :stylesheet
+stylesheet 'reset.scss'
 
 description "Normalize is a customisable CSS framework that makes browsers render all elements more consistenly and in line with modern standards"
 
