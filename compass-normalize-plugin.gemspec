@@ -16,6 +16,7 @@ Gem::Specification.new do |s|
   s.has_rdoc = false
 
   s.files         = `git ls-files`.split("\n")
+  s.files         += Dir.glob('stylesheets/**/*.*')
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
